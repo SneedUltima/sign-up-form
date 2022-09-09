@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="body-container">
+    <div class="image-container">
+        <img src="./assets/zetong-li-dxksyYhjAnU-unsplash.jpg">
+        <p id="author">Photo by <a href="https://unsplash.com/@zetong?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Zetong Li</a> on <a href="https://unsplash.com/t/textures-patterns?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        </p>
+        <div class="logo">Let's work together.</div>
+    </div>
+    <div class="text-container">
+        <div class="header-container">
+        <header id="header one">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</header>
+        <p id="header two">Sign up <em>now</em> to get started</p>
+        <p id="header three">You <em>know</em> you want to.</p>
+        </div>
+        <div class="form-container">
+        <form id="sign-up-form" action="#">
+            <p id="form-header">Let's do this!</p>
+
+            <label for="first_name">*First Name:</label>
+            <input type="text" name="first_name" 
+            id="first_name" placeholder="John" required>
+
+            <label for="last_name">*Last Name:</label>
+            <input type="text" name="last_name" id="last_name" placeholder="Doe" required>
+
+            <label for="email">*Email:</label>
+            <input type="email" id="email" name="email" placeholder="JohnDoe@mail.com" required>
+
+            <label for="phone_number">Phone Number:</label>
+            <input type="tel" id="phone_number" name="phone_number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" placeholder="813-026-973">
+
+            <label for="password">*Password:</label>
+            <input type="user_password" id="user_password" name="user_password" minlength="6" maxlength="14" required>
+
+            <label for="password">*Password:</label>
+            <input type="user_password" id="user_password" name="user_password" minlength="6" maxlength="14" required>
+
+            <label for="confirm_password">*Confirm Password:</label>
+            <input type="confirm_password" id="confirm_password" name="confirm_password" minlength="6" maxlength="14" required>
+        </form>
+        <div class="submit-container">
+            <button type="submit">Submit</button>
+            <div class="submit-text">
+                <p>Already have an account?</p>
+                <a href="#">Log in</a>
+            </div>
+        </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
